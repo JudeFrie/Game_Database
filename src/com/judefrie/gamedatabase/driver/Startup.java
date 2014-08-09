@@ -1,5 +1,7 @@
 package com.judefrie.gamedatabase.driver;
 
+import com.judefrie.gamedatabase.database.LoadGameDatabase;
+
 import java.util.Scanner;
 
 /**
@@ -31,6 +33,8 @@ public class Startup extends Throwable {
                 username = scan.next();
                 System.out.print("Password: ");
                 password = scan.next();
+                LoadGameDatabase loadGameDatabase = new LoadGameDatabase();
+                loadGameDatabase.readDatabase();
             } catch (Exception e) {
                 System.out.println("Wrong");
             }
