@@ -15,46 +15,46 @@ public class Startup extends Throwable {
     NumberFormatException problem;
 
     public Startup() {
+        input = 1;
         scan = new Scanner(System.in);
         problem = new NumberFormatException("Incorrect input");
 
-        System.out.println("Would you like to:\n1 - Login \n2 - Create an account\nPress q to quit");
-        try {
-            input = scan.nextInt();
-        } catch (Exception e) {
-            System.out.println("Wrong");
-        }
-        if (input == 1) {
-            System.out.println("Please enter your username and password.");
+        while (input != 0) {
+            System.out.println("Would you like to:\n1 - Login \n2 - Create an account\nPress 0 to quit");
             try {
+                input = scan.nextInt();
+                if (input != 0 && input != 1 && input != 2)
+                    throw problem;
+            } catch (Exception e) {
+                System.out.println("Incorrect input");
+            }
+             if (input == 1) {
+                System.out.println("Please enter your username and password.");
                 System.out.print("Username: ");
                 username = scan.next();
                 System.out.print("Password: ");
                 password = scan.next();
-            } catch (Exception e) {
-                System.out.println("Wrong");
-            }
-        } else if (input == 2) {
-            System.out.println("Please enter a new user name and password.");
-            System.out.print("Username: ");
-            username = scan.next();
-            System.out.print("Password: ");
-            password = scan.next();
-            System.out.print("Re-enter password: ");
-            passwordCheck = scan.next();
-            if (password.equals(passwordCheck))
-                ;
-            else {
-                try {
-                    if (input != 1 || input != 2)
-                        throw problem;
-                } catch (Exception e) {
-                    System.out.println("Password does not match previous");
-                }
-            }
+                // compare username and password to username and password in database
+                break;
 
-        } else
-            System.out.println("Incorrect input");
+            } else if (input == 2) {
+                 System.out.println("Please enter a new user name and password.");
+                 System.out.print("Username: ");
+                 username = scan.next();
+                 System.out.print("Password: ");
+                 password = scan.next();
+                 System.out.print("Re-enter password: ");
+                 passwordCheck = scan.next();
+                 if (password.equals(passwordCheck)) {
+                     ; // check to see if username already exists in database
+                     // create new username and password in database
+                     break;
+                 }  else {
+                     System.out.println("The password did not match the previous please try again.");
+                     System.out.println("");
+                 }
+             }
+         }
     }
 
 }
