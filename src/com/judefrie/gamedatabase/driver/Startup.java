@@ -1,5 +1,7 @@
 package com.judefrie.gamedatabase.driver;
 
+import com.judefrie.gamedatabase.database.LoadGameDatabase;
+
 import java.util.Scanner;
 
 /**
@@ -28,32 +30,33 @@ public class Startup extends Throwable {
             } catch (Exception e) {
                 System.out.println("Incorrect input");
             }
-             if (input == 1) {
+            if (input == 1) {
                 System.out.println("Please enter your username and password.");
                 System.out.print("Username: ");
                 username = scan.next();
                 System.out.print("Password: ");
                 password = scan.next();
+                if (LoadGameDatabase.authentication(username, password)) ;
                 // compare username and password to username and password in database
                 break;
 
             } else if (input == 2) {
-                 System.out.println("Please enter a new user name and password.");
-                 System.out.print("Username: ");
-                 username = scan.next();
-                 System.out.print("Password: ");
-                 password = scan.next();
-                 System.out.print("Re-enter password: ");
-                 passwordCheck = scan.next();
-                 if (password.equals(passwordCheck)) {
-                     ; // check to see if username already exists in database
-                       // create new username and password in database
-                     break;
-                 }  else {
-                     System.out.println("The password did not match the previous please try again.");
-                     System.out.println("");
-                 }
-             }
-         }
+                System.out.println("Please enter a new user name and password.");
+                System.out.print("Username: ");
+                username = scan.next();
+                System.out.print("Password: ");
+                password = scan.next();
+                System.out.print("Re-enter password: ");
+                passwordCheck = scan.next();
+                if (password.equals(passwordCheck)) {
+                    ; // check to see if username already exists in database
+                    // create new username and password in database
+                    break;
+                } else {
+                    System.out.println("The password did not match the previous please try again.");
+                    System.out.println("");
+                }
+            }
+        }
     }
 }

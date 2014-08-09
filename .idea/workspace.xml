@@ -26,30 +26,40 @@
       <file leaf-file-name="GameDatabaseDriver.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/judefrie/gamedatabase/driver/GameDatabaseDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="272">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
               <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Startup.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Startup.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/judefrie/gamedatabase/driver/Startup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5049342" vertical-offset="84" max-vertical-offset="1105">
-              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="386" max-vertical-offset="1156">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoadGameDatabase.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="LoadGameDatabase.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/judefrie/gamedatabase/database/LoadGameDatabase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="1173">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.54285717" vertical-offset="0" max-vertical-offset="1479">
+              <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
               <folding>
-                <marker date="1407563591241" expanded="true" signature="1040:1059" placeholder="SELECT * FRO..users..." />
+                <element signature="e#838#839#0" expanded="true" />
+                <element signature="e#865#866#0" expanded="true" />
+                <element signature="e#909#910#0" expanded="true" />
+                <element signature="e#940#941#0" expanded="true" />
+                <element signature="e#978#979#0" expanded="true" />
+                <element signature="e#1009#1010#0" expanded="true" />
+                <element signature="e#2476#2477#0" expanded="true" />
+                <element signature="e#2528#2529#0" expanded="true" />
+                <marker date="1407565697335" expanded="true" signature="1663:1682" placeholder="SELECT * FRO..users..." />
               </folding>
             </state>
           </provider>
@@ -70,6 +80,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/judefrie/gamedatabase/driver/GameDatabaseDriver.java" />
         <option value="$PROJECT_DIR$/src/com/judefrie/gamedatabase/driver/Startup.java" />
+        <option value="$PROJECT_DIR$/src/com/judefrie/gamedatabase/database/LoadGameDatabase.java" />
       </list>
     </option>
   </component>
@@ -114,6 +125,10 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Game_database" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -438,6 +453,9 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="aa0682d2-0e36-4db9-9955-6108abee6295" name="Default" comment="" />
@@ -445,12 +463,12 @@
       <updated>1407553875034</updated>
       <workItem from="1407553879578" duration="1617000" />
       <workItem from="1407559754880" duration="4295000" />
-      <workItem from="1407564179655" duration="16000" />
+      <workItem from="1407564179655" duration="1513000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5928000" />
+    <option name="totallyTimeSpent" value="7425000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -520,7 +538,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="1105">
           <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -536,7 +556,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="833">
           <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -555,21 +577,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/judefrie/gamedatabase/database/LoadGameDatabase.java">
+    <entry file="file://$PROJECT_DIR$/src/com/judefrie/gamedatabase/driver/Startup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="1173">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="386" max-vertical-offset="1156">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <marker date="1407563591241" expanded="true" signature="1040:1059" placeholder="SELECT * FRO..users..." />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/judefrie/gamedatabase/driver/Startup.java">
+    <entry file="file://$PROJECT_DIR$/src/com/judefrie/gamedatabase/database/LoadGameDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5049342" vertical-offset="84" max-vertical-offset="1105">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-          <folding />
+        <state vertical-scroll-proportion="0.54285717" vertical-offset="0" max-vertical-offset="1479">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+          <folding>
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#865#866#0" expanded="true" />
+            <element signature="e#909#910#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#978#979#0" expanded="true" />
+            <element signature="e#1009#1010#0" expanded="true" />
+            <element signature="e#2476#2477#0" expanded="true" />
+            <element signature="e#2528#2529#0" expanded="true" />
+            <marker date="1407565697335" expanded="true" signature="1663:1682" placeholder="SELECT * FRO..users..." />
+          </folding>
         </state>
       </provider>
     </entry>
