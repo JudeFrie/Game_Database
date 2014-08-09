@@ -27,16 +27,20 @@ public class Startup extends Throwable {
         if (input == 1) {
             System.out.println("Please enter your username and password.");
             try {
+                System.out.print("Username: ");
                 username = scan.next();
+                System.out.print("Password: ");
                 password = scan.next();
             } catch (Exception e) {
                 System.out.println("Wrong");
             }
         } else if (input == 2) {
             System.out.println("Please enter a new user name and password.");
+            System.out.print("Username: ");
             username = scan.next();
+            System.out.print("Password: ");
             password = scan.next();
-            System.out.println("Re-enter password");
+            System.out.print("Re-enter password: ");
             passwordCheck = scan.next();
             if (password.equals(passwordCheck))
                 ;
