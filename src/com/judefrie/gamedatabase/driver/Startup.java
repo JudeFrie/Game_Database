@@ -47,7 +47,7 @@ public class Startup extends Throwable {
                  passwordCheck = scan.next();
                  if (password.equals(passwordCheck)) {
                      ; // check to see if username already exists in database
-                     // create new username and password in database
+                       // create new username and password in database
                      break;
                  }  else {
                      System.out.println("The password did not match the previous please try again.");
@@ -56,5 +56,4 @@ public class Startup extends Throwable {
              }
          }
     }
-
 }
