@@ -36,7 +36,8 @@ public class Startup extends Throwable {
                 username = scan.next();
                 System.out.print("Password: ");
                 password = scan.next();
-                if (LoadGameDatabase.authentication(username, password)) ;
+                LoadGameDatabase loadGameDatabase = new LoadGameDatabase(username, password);
+
                 // compare username and password to username and password in database
                 break;
 
