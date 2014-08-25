@@ -8,7 +8,7 @@ import java.sql.*;
 public class LoadGameDatabase {
     static String user = null;
     static String pass = null;
-    String mysqlUsername = "root";
+    String mysqlUsername = "xxxx";
     String mysqlPassword = "xxxxxxx";
     Connection connection = null;
     private Statement statement = null;
