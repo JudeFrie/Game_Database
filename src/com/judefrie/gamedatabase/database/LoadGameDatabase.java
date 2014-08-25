@@ -9,7 +9,7 @@ public class LoadGameDatabase {
     static String user = null;
     static String pass = null;
     String mysqlUsername = "root";
-    String mysqlPassword = "Poopienerf1";
+    String mysqlPassword = "xxxxxxx";
     Connection connection = null;
     private Statement statement = null;
     private ResultSet resultSet = null;
